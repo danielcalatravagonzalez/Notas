@@ -4,7 +4,7 @@
 package notas;
 
 /**
- * @author Daniel Calatrava González
+ * @author Daniel Calatrava Gonzalez
  *
  */
 import java.util.Scanner;
