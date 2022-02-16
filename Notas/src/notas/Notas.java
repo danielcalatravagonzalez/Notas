@@ -22,6 +22,15 @@ public class Notas {
 		String calificacion = "";
 		System.out.print("Introduzca una nota: ");
 		notas = reader.nextInt();
+		cali(notas);
+		reader.close();
+	}
+
+	/**
+	 * @param notas
+	 */
+	public static void cali(int notas) {
+		String calificacion;
 		if (notas >= 0 && notas < 5)
 			calificacion = "Suspenso";
 		else if (notas >= 5 && notas < 7)
@@ -33,7 +42,6 @@ public class Notas {
 		else
 			calificacion = "La nota introducida no es correcta";
 		System.out.println(calificacion);
-		reader.close();
 	}
 
 }
