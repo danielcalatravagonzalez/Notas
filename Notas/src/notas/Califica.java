@@ -5,12 +5,12 @@ package notas;
 
 /**
  * @author Daniel Calatrava González
- *
+ * @version 18/02/2022 1.0 
  */
 public class Califica {
 
 	/**
-	 * @param num_nota
+	 * @param num_nota Método que realiza la comparación para poner una calificación dependiendo de la nota introducida
 	 */
 	public static void califica(int num_nota) {
 		String calificacion;

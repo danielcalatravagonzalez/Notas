@@ -1,18 +1,15 @@
-/**
- * 
- */
 package notas;
 
 /**
  * @author Daniel Calatrava González
- *
+ * @version 18/02/2022 1.0
  */
 import java.util.Scanner;
 
 public class Notas {
 
 	/**
-	 * @param args
+	 * @param args Método main el cual pregunta una nota para calificar
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,12 +19,12 @@ public class Notas {
 		String calificacion = "";
 		System.out.print("Introduzca una nota: ");
 		notas = reader.nextInt();
-		Califica.califica(notas);
+		Califica.califica(notas);// Llamada al método califica de la clase Califica
 		reader.close();
 	}
 
 	/**
-	 * @param notas
+	 * @param notas Método en desuso, utiliza el de la clase Califica
 	 * @deprecated Use {@link Califica#califica(int)} instead
 	 */
 	public static void cali(int notas) {
@@ -35,7 +32,7 @@ public class Notas {
 	}
 
 	/**
-	 * @param num_nota
+	 * @param num_nota Método en desuso, usa el de la clase Califica
 	 * @deprecated Use {@link Califica#califica(int)} instead
 	 */
 	public static void califica(int num_nota) {
